@@ -1,0 +1,67 @@
+main{
+    width: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.conte_izq{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+
+}
+.hijo{
+    margin: 8px;
+    border: 1px solid;
+    width: 600px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+.hijitos{
+    display: flex;
+    border: 1px solid;
+    margin:5px;
+    width: 150px;
+    height: 110px;
+}
+.conte_der{
+    border: 1px solid blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+
+}
+.contenedor_papa{
+    border: 1px solid rgb(9, 206, 35);
+    margin: 5px;
+    width: 600px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.bebes{
+    /* margin: 5px; */
+    border: 1px solid red;
+    /* flex-direction: column;
+    justify-content: center; */
+    width: 100px;
+    height: 100px;
+     margin: 5px;
+    /* display: flex;
+    border: 1px solid;
+     */ */
+}
+.jugos{
+    border: 1px solid orange;
+    width: 50%;
+    height: 100%;
+
+}

@@ -1,29 +1,88 @@
- .caja_padre{
-    padding: 20px 0px;
-    overflow: hidden;
+.caja_padre{
+    margin: 30px;
+    height: auto;
     display: flex;
-    justify-content: space-between;
     border: 1px solid;
-    width: 100%; 
+    /* align-items: stretch; */
+  justify-content: space-around;
 }
-.logo {
-    border: 1px solid;
+.caja_hijo{
     display: flex;
-    margin: 10px 0px;
+    align-items: center;
     justify-content: space-around;
-    width: 25%;
-    height: 20%;
-}
-.enlaces{
- float: left;
- border: 1px solid;
-    display: flex;
-    flex-direction: row;
-    margin: 10px 0px;
-    width: 25%;
-    height: 20%;
-
+    border: 1px solid;
+    margin: 5px;
+    width: auto;
 }
 nav ul{
     list-style: none;
+
 }
+li {
+    display: flex;
+    overflow: hidden;
+    float: left;
+    width: 100px;
+    margin-right: 10px;
+  }
+ .logo{
+    margin:10px 0;
+    width: 15%;
+    height: 100px;
+    
+ } 
+.menu{
+    margin-top: 35px;
+width: 40%;
+height: 50px;
+}
+main{
+    height: auto;
+    width: auto;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.caja_izquierda{
+    border: 1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 42.5%;
+    height: auto;
+
+}
+.titulo{
+    text-align: center;
+}
+.texto{
+    text-align: center;
+}
+.caja_derecha{
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
+    width: 50.7%;
+    height: auto;
+    justify-content: space-evenly;
+}
+.diseño{
+    border: 1px solid;
+    /* margin-top: 6px; */
+    width: 145px;
+    height: 130px;
+    text-align: center;
+}
+footer{
+border: 1px;
+}
+
+/* .mayor{
+    border: 1px solid;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 20px;
+} */
+
+
